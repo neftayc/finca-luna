@@ -1,0 +1,20 @@
+// Ref: https://github.com/nuxt-community/vuetify-module#customvariables
+//
+// The variables you want to modify
+// $font-size-root: 20px;
+ 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;500;800;900&family=Manrope:wght@200;300;400;500;800&display=swap');
+ // Font families
+$heading-font: 'Inter', sans-serif;
+$body-font: 'Manrope', sans-serif;
+$body-font-family: 'Manrope', sans-serif;
+$heading-font-family: 'Inter', sans-serif; 
+
+
+$container-max-widths: ( 
+    'md': 748px,
+    'lg': 900px,
+    'xl': 1440px
+);
+
+@import '~vuetify/src/styles/styles.sass';
